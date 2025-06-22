@@ -13,7 +13,7 @@ A modern, responsive portfolio web application built with React, Vite, Tailwind 
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/jubayerahmmad/portfolio-codesraft
    cd portfolio-codesraft
    ```
 2. **Install dependencies:**

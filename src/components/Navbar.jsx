@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const navLinks = [
   { name: "Home", to: "/" },
-  { name: "About", to: "/" },
-  { name: "Projects", to: "/" },
+  { name: "About", to: "/about" },
+  { name: "Projects", to: "/projects" },
 ];
 
 export default function Navbar() {
@@ -15,14 +15,14 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed w-full top-0 z-50 transition-all duration-300 py-3 px-4`}
+      className={`fixed w-full top-0 z-50 transition-all duration-300 py-4`}
     >
-      <div className="max-w-7xl mx-auto flex justify-between items-center bg-gray-700/20 backdrop-blur-lg shadow-sm rounded-xl p-4">
-        <Link to="/home" className="text-xl font-bold myName">
+      <div className="max-w-7xl mx-auto flex justify-between items-center bg-cyan-100/40 backdrop-blur-md  shadow-sm rounded-xl p-4">
+        <Link to="/" className="text-xl font-bold myName">
           {"<"}Jubayer {"/>"}
         </Link>
 
-        {/* Mobile Menu */}
+        {/* Mobile */}
         <div className="md:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -32,7 +32,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Desktop Navigation */}
+        {/* Desktop*/}
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => {
             return (
@@ -52,14 +52,11 @@ export default function Navbar() {
           </button>
         </nav>
 
-        {/* Mobile Navigation */}
+        {/* Mobile*/}
         {isMenuOpen && (
           <nav className="fixed inset-0 z-50 bg-black text-white h-screen p-6 pt-24 flex flex-col md:hidden animate-fade-in">
             <div className="absolute top-5 right-5">
-              <button
-                onClick={() => setIsMenuOpen(false)}
-                className="p-2 focus:outline-none"
-              >
+              <button onClick={() => setIsMenuOpen(false)} className="p-2">
                 <RxCross2 size={28} />
               </button>
             </div>

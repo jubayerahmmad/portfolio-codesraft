@@ -1,12 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Share+Tech&display=swap");
 
 @import "tailwindcss";
 
 body {
-  background-color: rgb(39, 29, 29);
+  background-color: rgb(15, 12, 12);
+  font-family: "Lexend", sans-serif;
+  color: white;
 }
 
 .myName {
-  font-family: "Gugi", sans-serif;
-  @apply bg-gradient-to-br from-cyan-200 via-cyan-600 to-cyan-800 bg-clip-text text-transparent;
+  font-family: "Share Tech", sans-serif;
+  @apply bg-gradient-to-br from-cyan-50 via-cyan-100 to-cyan-50 bg-clip-text text-transparent font-bold;
+}
+
+.floating-cards {
+  @apply absolute bg-gradient-to-r from-cyan-50 to-cyan-100 text-black py-3 px-5 rounded-lg shadow-xl text-center;
+}
+h1,
+h2,
+h3 {
+  font-family: "Lexend", sans-serif;
+}
+
+p,
+button {
+  font-family: "Share Tech", sans-serif;
 }
