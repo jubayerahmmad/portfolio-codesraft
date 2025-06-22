@@ -16,6 +16,11 @@ body {
 .floating-cards {
   @apply absolute bg-gradient-to-r from-cyan-50 to-cyan-100 text-black py-3 px-5 rounded-lg shadow-xl text-center;
 }
+
+.btn-primary {
+  @apply mt-4 px-4 py-2 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg shadow-lg cursor-pointer;
+}
+
 h1,
 h2,
 h3 {

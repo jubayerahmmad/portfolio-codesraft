@@ -11,7 +11,7 @@ const Hero = () => {
       }}
     >
       {/* overlay */}
-      <div className="absolute inset-0 bg-cyan-950/70 rounded-md"></div>
+      <div className="absolute inset-0 bg-cyan-950/30 backdrop-blur-xs rounded-md"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-12">
         {/* Left Section */}
@@ -26,9 +26,7 @@ const Hero = () => {
             responsive, performant, and user-friendly web applications using
             React, Vite, and Tailwind CSS.
           </p>
-          <button className="mt-8 px-8 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-semibold rounded-lg shadow-lg cursor-pointer">
-            Explore My Projects
-          </button>
+          <button className="btn-primary ">EXPLORE MY PROJECTS</button>
         </div>
 
         {/* Right */}
