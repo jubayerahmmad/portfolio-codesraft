@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Lexend:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+body {
+  background-color: rgb(39, 29, 29);
+}
+
+.myName {
+  font-family: "Gugi", sans-serif;
+  @apply bg-gradient-to-br from-cyan-200 via-cyan-600 to-cyan-800 bg-clip-text text-transparent;
+}
