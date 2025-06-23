@@ -16,21 +16,21 @@ const Footer = () => {
           <div className="flex space-x-4">
             <a
               href="https://github.com/jubayerahmmad"
-              className="text-gray-400 hover:text-cyan-500 transition-colors duration-300"
+              className="text-gray-400 hover:text-cyan-500"
             >
-              <FaGithub />
+              <FaGithub size={20} />
             </a>
             <a
               href="https://www.linkedin.com/in/jubayer-ahmmad073/"
-              className="text-gray-400 hover:text-cyan-500 transition-colors duration-300"
+              className="text-gray-400 hover:text-cyan-500"
             >
-              <FaLinkedin />
+              <FaLinkedin size={20} />
             </a>
             <a
               href="http://facebook.com/zubayer.ahmmad.1"
-              className="text-gray-400 hover:text-cyan-500 transition-colors duration-300"
+              className="text-gray-400 hover:text-cyan-500"
             >
-              <FaFacebook />
+              <FaFacebook size={20} />
             </a>
           </div>
         </div>

@@ -26,7 +26,9 @@ const Hero = () => {
             responsive, performant, and user-friendly web applications using
             React, Vite, and Tailwind CSS.
           </p>
-          <button className="btn-primary ">EXPLORE MY PROJECTS</button>
+          <a href="#projects">
+            <button className="btn-primary">EXPLORE MY PROJECTS</button>
+          </a>
         </div>
 
         {/* Right */}

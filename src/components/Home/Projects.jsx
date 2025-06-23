@@ -22,7 +22,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="w-full py-24 bg-cyan-950/40">
+    <section id="projects" className="w-full py-24 bg-cyan-950/40">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* header */}

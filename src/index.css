@@ -2,6 +2,10 @@
 
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(15, 12, 12);
   font-family: "Lexend", sans-serif;
@@ -32,6 +36,9 @@ body {
   @apply absolute inset-0 bg-cyan-950/30 backdrop-blur-xs rounded-md;
 }
 
+.why-me-card {
+  @apply bg-gradient-to-br from-blue-500/10 to-transparent border border-blue-500/20 rounded-xl p-6;
+}
 .section-header {
   @apply md:text-lg text-cyan-100/70 bg-cyan-800/40 px-3 py-1 rounded-md w-fit tracking-widest;
 }

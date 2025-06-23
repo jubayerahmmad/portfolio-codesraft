@@ -105,21 +105,21 @@ const WhyMe = () => {
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
-              <div className="flex flex-col items-center sm:items-start p-4 bg-cyan-100 rounded-lg shadow-md">
-                <p className="text-2xl font-bold text-cyan-950">100%</p>
-                <p className="text-lg text-black mt-2 text-center sm:text-left">
+              <div className="why-me-card">
+                <p className="text-2xl font-bold text-cyan-500">100%</p>
+                <p className="text-lg text-gray-400 mt-2 text-center sm:text-left">
                   Responsive Coverage
                 </p>
               </div>
-              <div className="flex flex-col items-center sm:items-start p-4 bg-cyan-100 rounded-lg shadow-md">
-                <p className="text-2xl font-bold text-cyan-950">Optimal</p>
-                <p className="text-lg text-black mt-2 text-center sm:text-left">
+              <div className="why-me-card">
+                <p className="text-2xl font-bold text-cyan-500">Optimal</p>
+                <p className="text-lg text-gray-400 mt-2 text-center sm:text-left">
                   Performance Focus
                 </p>
               </div>
-              <div className="flex flex-col items-center sm:items-start p-4 bg-cyan-100 rounded-lg shadow-md">
-                <p className="text-2xl font-bold text-cyan-950">5+</p>
-                <p className="text-lg text-black mt-2 text-center sm:text-left">
+              <div className="why-me-card">
+                <p className="text-2xl font-bold text-cyan-500">5+</p>
+                <p className="text-lg text-gray-400 mt-2 text-center sm:text-left">
                   Technologies Used
                 </p>
               </div>
