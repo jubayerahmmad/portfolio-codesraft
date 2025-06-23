@@ -1,9 +1,9 @@
 const WhyMe = () => {
   return (
-    <section className="w-full bg-cyan-950/40 py-6">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="w-full bg-cyan-950/40 py-24">
+      <div className="max-w-7xl mx-auto px-4 space-y-6">
         {/* row 1 */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12 py-4">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left  */}
           <div className="flex justify-center w-full lg:w-1/3">
             <img
@@ -50,12 +50,12 @@ const WhyMe = () => {
                   <p className="text-lg font-medium text-gray-300">
                     Performance Optimization
                   </p>
-                  <p className="text-lg font-semibold text-cyan-400">85%</p>
+                  <p className="text-lg font-semibold text-cyan-400">90%</p>
                 </div>
                 <div className="w-full bg-gray-700 rounded-full h-1.5">
                   <div
                     className="bg-cyan-500 h-1.5 rounded-full"
-                    style={{ width: "85%" }}
+                    style={{ width: "90%" }}
                   ></div>
                 </div>
               </div>

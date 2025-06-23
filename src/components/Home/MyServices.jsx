@@ -5,7 +5,7 @@ import { FaDesktop, FaNodeJs } from "react-icons/fa6";
 const MyServices = () => {
   return (
     <section
-      className="w-full relative py-6"
+      className="w-full relative py-24"
       style={{
         backgroundImage:
           "url(https://i.ibb.co/tws79w8y/ladislav-sh-Y9-ENVevoo-Ic-unsplash.jpg)",
@@ -26,7 +26,7 @@ const MyServices = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-10">
           {/* card1 */}
           <div className="p-4 rounded-xl bg-cyan-950/90">
             <div className="flex justify-start flex-col gap-2">
