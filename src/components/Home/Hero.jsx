@@ -11,7 +11,7 @@ const Hero = () => {
       }}
     >
       {/* overlay */}
-      <div className="absolute inset-0 bg-cyan-950/30 backdrop-blur-xs rounded-md"></div>
+      <div className="overlay"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-12">
         {/* Left Section */}
@@ -30,12 +30,12 @@ const Hero = () => {
         </div>
 
         {/* Right */}
-        <div className="flex justify-end relative min-h-[400px]">
+        <div className="flex justify-end relative">
           {/* Main Img*/}
           <img
             src="https://i.ibb.co/60mTQ5K3/formal-man-removebg-preview.png"
             alt="profile picture"
-            className="object-contain rounded-lg shadow-xl"
+            className="object-contain rounded-lg"
           />
 
           {/* floating cards */}

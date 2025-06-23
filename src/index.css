@@ -21,6 +21,14 @@ body {
   @apply mt-4 px-4 py-2 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg shadow-lg cursor-pointer;
 }
 
+.overlay {
+  @apply absolute inset-0 bg-cyan-950/30 backdrop-blur-xs rounded-md;
+}
+
+.section-header {
+  @apply md:text-lg text-cyan-100/70 bg-cyan-800/40 px-3 py-1 rounded-md w-fit tracking-widest;
+}
+
 h1,
 h2,
 h3 {

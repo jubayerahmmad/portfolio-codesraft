@@ -15,7 +15,7 @@ const WhyMe = () => {
 
           {/* Right*/}
           <div className=" text-white space-y-3 w-full lg:w-2/3">
-            <h2 className="text-xl md:text-2xl font-extrabold block text-cyan-400">
+            <h2 className="md:text-lg uppercase text-cyan-100/70 bg-cyan-800/40 px-3 py-1 rounded-md w-fit">
               Why Work With Me?
             </h2>
             <h3 className="text-2xl md:text-3xl text-balance">
