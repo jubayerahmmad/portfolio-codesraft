@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa6";
 const ProjectCard = ({ project }) => {
   const { name, description, image, live, github, tags } = project || {};
   return (
-    <div className="bg-cyan-100/10 rounded-2xl transition duration-300">
+    <div className="flex-none bg-cyan-100/10 rounded-2xl transition duration-300 w-full md:w-1/2">
       <div>
         <img
           src={image}
