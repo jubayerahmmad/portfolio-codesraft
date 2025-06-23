@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ProjectCard from "../Cards/ProjectCard";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { useState } from "react";
@@ -7,7 +6,7 @@ import projects from "../../data/projects";
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   // console.log(currentIndex);
-  const itemPerSlide = 2;
+  const itemPerSlide = window.innerWidth > 768 ? 3 : 1;
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => {
@@ -38,7 +37,7 @@ const Projects = () => {
             <button
               onClick={handlePrev}
               disabled={currentIndex === 0}
-              className="p-3 rounded-full bg-cyan-700 cursor-pointer hover:bg-cyan-800 disabled:bg-cyan-950"
+              className="p-3 rounded-full bg-cyan-700 cursor-pointer hover:bg-cyan-800 disabled:bg-cyan-950 disabled:cursor-not-allowed"
             >
               <FaArrowLeft size={24} />
             </button>

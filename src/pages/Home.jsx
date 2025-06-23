@@ -1,3 +1,4 @@
+import CTA from "../components/Home/CTA";
 import Hero from "../components/Home/Hero";
 import MyServices from "../components/Home/MyServices";
 import Projects from "../components/Home/Projects";
@@ -10,6 +11,7 @@ const Home = () => {
       <WhyMe />
       <MyServices />
       <Projects />
+      <CTA />
     </div>
   );
 };

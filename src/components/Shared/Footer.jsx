@@ -86,7 +86,7 @@ const Footer = () => {
               <span className="text-gray-400">Email: </span>
               <a
                 href="mailto:zubayersami510@gmail.com"
-                className="text-gray-400 hover:text-white transition-colors duration-300"
+                className="text-white hover:text-cyan-400 transition-colors duration-300"
               >
                 zubayersami510@gmail.com
               </a>
@@ -94,11 +94,11 @@ const Footer = () => {
             <li>
               <span className="text-gray-400">LinkedIn: </span>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/jubayer-ahmmad073"
                 target="_blank"
-                className="text-gray-400 hover:text-white transition-colors duration-300"
+                className="text-white hover:text-cyan-400 transition-colors duration-300"
               >
-                linkedin.com/in/yourprofile
+                https://www.linkedin.com/in/jubayer-ahmmad073
               </a>
             </li>
             <li>
@@ -106,9 +106,9 @@ const Footer = () => {
               <a
                 href="https://github.com/jubayerahmmad"
                 target="_blank"
-                className="text-gray-400 hover:text-white transition-colors duration-300"
+                className="text-white hover:text-cyan-400 transition-colors duration-300"
               >
-                github.com/yourusername
+                https://github.com/jubayerahmmad
               </a>
             </li>
           </ul>

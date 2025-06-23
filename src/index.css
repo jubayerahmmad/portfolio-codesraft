@@ -17,8 +17,15 @@ body {
   @apply absolute bg-gradient-to-r from-cyan-50 to-cyan-100 text-black py-3 px-5 rounded-lg shadow-xl text-center;
 }
 
+.cta-float {
+  @apply flex items-center gap-2 bg-gray-800 text-white py-2 px-4 rounded-lg text-sm shadow-md;
+}
+
 .btn-primary {
   @apply mt-4 px-4 py-2 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg shadow-lg cursor-pointer;
+}
+.btn-secondary {
+  @apply mt-4 px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg shadow-lg cursor-pointer;
 }
 
 .overlay {
