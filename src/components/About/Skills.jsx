@@ -30,7 +30,7 @@ const skillsData = [
 const tools = [
   {
     icon: <FaTools size={20} className="text-cyan-400" />,
-    items: ["Git", "GitHub", "Netlify", "Vercel", "Stripe", "JWT", "Vite"],
+    items: ["Git", "GitHub", "Netlify", "Vercel", "JWT", "Vite"],
   },
 ];
 
@@ -49,18 +49,18 @@ const Skills = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
-          {skillsData.map((set, idx) => (
+          {skillsData.map((skills, idx) => (
             <div
               key={idx}
               className="bg-slate-800/60 p-6 rounded-xl border border-slate-700"
             >
               <div className="flex items-center gap-2 mb-4">
-                {set.icon}
+                {skills.icon}
                 <h3 className="text-xl font-semibold text-cyan-300">
-                  {set.category}
+                  {skills.category}
                 </h3>
               </div>
-              {set.items.map((skill, i) => (
+              {skills.items.map((skill, i) => (
                 <div key={i} className="mb-4 group">
                   <div className="flex justify-between items-center mb-1">
                     <span className="text-gray-300 font-medium">
