@@ -18,7 +18,7 @@ body {
 }
 
 .floating-cards {
-  @apply absolute bg-gradient-to-r from-cyan-50 to-cyan-100 text-black py-3 px-5 rounded-lg shadow-xl text-center;
+  @apply absolute bg-gradient-to-r from-cyan-950/90 to-cyan-800/90 border border-cyan-600/50 text-white py-3 px-5 rounded-lg shadow-md shadow-cyan-700 text-center;
 }
 
 .cta-float {

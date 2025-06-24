@@ -34,4 +34,4 @@ npm run build
 
 ## Live Demo
 
-[Live Link](#)
+[Live Link](https://portfolioo-ui.netlify.app/)

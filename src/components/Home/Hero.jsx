@@ -1,3 +1,9 @@
+import { DiMongodb } from "react-icons/di";
+import { FaJsSquare, FaNodeJs } from "react-icons/fa";
+import { FaJs, FaReact } from "react-icons/fa6";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiExpress } from "react-icons/si";
+
 const Hero = () => {
   return (
     <section
@@ -52,8 +58,14 @@ const Hero = () => {
           </div>
 
           <div className="bottom-20 left-10 floating-cards">
-            <p className="text-2xl font-bold">React, JS,</p>
-            <p className="text-sm">Tailwind CSS</p>
+            <p className="text-2xl font-bold flex flex-wrap justify-center gap-4 w-28">
+              <FaReact size={24} color="cyan" />
+              <FaJsSquare size={24} color="yellow" />
+              <FaNodeJs size={24} color="orange" />
+              <DiMongodb size={24} color="green" />
+              <RiTailwindCssFill size={24} color="cyan" />
+              <SiExpress size={24} color="green" />
+            </p>
           </div>
         </div>
       </div>
